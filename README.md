@@ -1,3 +1,3 @@
 # λ SICP λ
-Documenting my progress through SICP exercises!
+Documenting my progress through SICP exercises.
 
