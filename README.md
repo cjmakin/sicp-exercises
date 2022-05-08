@@ -1,4 +1,3 @@
 # sicp
-λ Structure and Interpretation of Computer Programs exercises
+λ Structure and Interpretation of Computer Programs exercises λ
 
-SICP exercises in scheme.
