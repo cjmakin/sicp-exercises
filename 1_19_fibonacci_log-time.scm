@@ -17,8 +17,8 @@
          (fib-log-iter
                    a
                    b
-                   ;p'
-                   ;q'
+                   p
+                   q
                    (/ count 2)))
         (else (fib-log-iter
                         (+ (* b q) (* a q) (* a p))
@@ -28,6 +28,7 @@
                         (- count 1)))))
 
 (fib 6)
+(fib-iter 6)
 (fib-log 6)
 ;a = (+ (* 0 1) (* 1 1) (* 1 0)) = 1
 ;b = (+ (* 0 0) (* 1 1)) = 1
