@@ -1,4 +1,4 @@
-; Exercise 1.21 Find smallest divisor in sqrt(n) time.
+; Exercise 1.21 - Find smallest divisor of 199, 1999, and 19999.
 
 (define (smallest-divisor n)
   (find-divisor n 2))
