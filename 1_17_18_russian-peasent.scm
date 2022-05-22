@@ -1,4 +1,4 @@
-;Exercise 1.17 & 1.18: Multiplication using only addition and subtraction
+;Exercise 1.17 & 1.18 - Multiplication using only addition and subtraction
 ;in logarithmic number of steps. Recursive and iterative implementations.
 
 (define (halve a)
@@ -31,5 +31,3 @@
          (times-iter (double a) (halve b) p))
         (else
          (times-iter a (- b 1) (+ a p)))))
-
-
