@@ -1,5 +1,5 @@
-;Exercise 1.17 & 1.18 - Multiplication using only addition and subtraction
-;in logarithmic number of steps. Recursive and iterative implementations.
+; Exercise 1.17 & 1.18 - Multiplication using only addition and subtraction
+; in logarithmic time. Recursive and iterative implementations.
 
 (define (halve a)
   (if (= a 0)
