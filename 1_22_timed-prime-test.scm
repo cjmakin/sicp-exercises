@@ -9,14 +9,14 @@
     (timed-prime-test n)))
 
 (define (timed-prime-test n)
-  (start-prime-test n (runtime) 0)) 
+  (start-prime-test n (real-time-clock) 0)) 
 
 (define (start-prime-test n start-time count)
   (cond ((= count 3)  (display "Done.")
 		      (newline)
 		      (newline))
-    	((prime? n) (report-prime n (- (runtime) start-time) count))
-	(else (start-prime-test (+ n 2) (runtime) count))))
+    	((prime? n) (report-prime n (- (real-time-clock) start-time) count))
+	(else (start-prime-test (+ n 2) (real-time-clock) count))))
 
 (define (report-prime n elapsed-time count)
   (display " *** ")
@@ -27,7 +27,7 @@
   (display "Elapsed time: ")
   (display elapsed-time)
   (newline)
-  (start-prime-test (+ n 2) (runtime) (+ count 1)))
+  (start-prime-test (+ n 2) (real-time-clock) (+ count 1)))
 
 (define (smallest-divisor n)
   (find-divisor n 2))
