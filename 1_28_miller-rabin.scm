@@ -3,16 +3,13 @@
 (define (square x)
   (* x x))
 
-(define (expmod base exp m)
-  (cond ((
-        ((= exp 0) 1)
+(define (expmod base exp m a)
+  (let
+      (cond ((= exp 0) a)
         ((even? exp)
-         (remainder
-          (square (expmod base (/ exp 2) m)) m))
+         (expmod (remainder (square base) m) (/ exp 2) m a))
         (else
-         (remainder
-          (* base (expmod base (- exp 1) m))
-          m))))
+         (expmod base (- exp 1) m (remainder (* base a) m)))))      
 
 (define (miller-rabin n a)
   (define (try-it a)
@@ -24,9 +21,3 @@
         ((fermat-test n (- n 11)) (fast-prime? n (- times 1)))
         (else #f)))
 
-(fast-prime? 561 2)
-(fast-prime? 1105 2)
-(fast-prime? 1729 2)
-(fast-prime? 2465 2)
-(fast-prime? 2821 2)
-(fast-prime? 6601 2)
