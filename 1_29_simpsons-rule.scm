@@ -1,4 +1,5 @@
-; Exercise 1.29 Procedure that generates simpson's rule for numerical integration. 
+; Exercise 1.29 Write a procedure for Simpson's rule of numerical integration.
+; Use the procudure to integrate cube between 0 and 1 (with n = 100 and n = 1000).
 
 (define (sum term a next b)
   (if (> a b)
