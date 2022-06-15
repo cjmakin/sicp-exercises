@@ -37,8 +37,3 @@
   (* 4 (pi-product 2 n)))
 
 (wallis-pi 70)
-
-
-
-
-  
