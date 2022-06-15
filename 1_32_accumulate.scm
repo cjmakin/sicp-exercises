@@ -1,4 +1,5 @@
-; Exercise 1.32: Implementation of accumulate procedure.
+; Exercise 1.32 - Implement a procedure that combines a collection of terms, using some general 
+; accumulation function.
 
 (define (product term a next b)
   (if (> a b)
@@ -23,4 +24,3 @@
   (product identity 1 f-next n))
 
 (factorial 6)
-
