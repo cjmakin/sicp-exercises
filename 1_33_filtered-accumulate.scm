@@ -1,5 +1,5 @@
 ; Exercise 1.33: Implement a variation of accumulate that specifies a filter.
-; Show how to epress the following using filtered-accumulate:
+; Show how to express the following using filtered-accumulate:
 ;     a. The sum of squares of the primes numbers in the interval a to b.
 ;     b. The product of all positive integers less than n that are relatively 
 ;         prime to n.
