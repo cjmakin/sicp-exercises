@@ -22,15 +22,12 @@
           (try next))))  
   (try first-guess))
 
-; With average damping. Number of guesses: 10
+; With average damping. Number of guesses: 8
 (fixed-point (lambda (x) (average x (/ (log 1000) (log x))))
              2.0)
 
 (newline)
 
-; Without. Number of guesses: 34
+; Without. Number of guesses: 33
 (fixed-point (lambda (x) (/ (log 1000) (log x)))
              2.0)
-
-
-
