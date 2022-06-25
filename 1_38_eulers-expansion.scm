@@ -1,4 +1,5 @@
-;; Exercise 1.38: Write a program that approximates e based on Euler's continued fraction method.
+;Exercise 1.38: Write a program that approximates e based on Euler's continued fraction
+; method.
 
 (define (eulers-cf k)
   (define (e-helper d i k)
@@ -11,11 +12,3 @@
   (+ 2 (e-helper 2 2 k)))  
  
 (eulers-cf 10) 
-         
-            
-  
-
-
-
-
-
