@@ -3,7 +3,7 @@
 ; the value of the k-term finite continued fraction.
 ; Implement iteritavely and recursively.
 
-(define tolerance .00001)
+(define tolerance .0001)
 
 (define (average a b)
   (/ (+ a b) 2))
@@ -38,19 +38,14 @@
     (iter n d k 1))
 
 
+(/ 1 golden-ratio)
+
+; k = 11 for an approximation accurate to 4 decimal places.
 (cont-fraction (lambda (i) 1.0)
                (lambda (i) 1.0)
                11)
 
+; k = 10 for an approximation accurate to 4 decimal places.
 (cont-fraction-iter (lambda (i) 1.0)
                (lambda (i) 1.0)
-               11)
-
-(/ 1 golden-ratio)
-
-((lambda (x) (= (/ x 3) 0)) 3)
-
-
-
-
-
+               10)
