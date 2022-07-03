@@ -31,7 +31,4 @@
 (define (cubic a b c)
   (lambda (x) (+ (cube x) (* a (square x)) (* b x) c)))
 
-(newtons-method (cubic 1 1 0) 1.0)
-
-
-
+(newtons-method (cubic 4 2 5) 1.0)

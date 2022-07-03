@@ -1,5 +1,5 @@
 ; Exercise 1.39: Define a procedure (tan-cf x k) that computes an approximation to
-;  the tangent function based on Lambert’s formula.
+; the tangent function based on Lambert’s formula.
 
 
 
