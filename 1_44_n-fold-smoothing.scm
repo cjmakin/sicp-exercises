@@ -1,4 +1,4 @@
-; Exercise 1.44 Write a procedure 'smooth that takes as input a procedure that computes f
+; Exercise 1.44 -  Write a procedure 'smooth that takes as input a procedure that computes f
 ; and returns a procedure that computes smoothed f. Show how to generate the n-fold smoothed
 ; function of any given function using 'smooth' and 'repeated'.
 
@@ -27,11 +27,3 @@
   (lambda (x) (((repeated smooth n) f) x)))
 
 ((n-fold-smooth square 3) 4)
-
-
-
-
-
- 
-
- 
