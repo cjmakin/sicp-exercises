@@ -5,9 +5,6 @@
 (define (compose f g)
   (lambda (x) (f (g x))))
 
-(define (f x)
-  (+ x 1))
-
 (define (square x) (* x x))
 
 (define (repeated f n)
@@ -15,6 +12,4 @@
       (lambda (x) (f x))
       (compose f (repeated f (- n 1)))))
 
-((repeated f 4) 0) 
-      
-      
+((repeated square 2) 5) 
