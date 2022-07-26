@@ -1,4 +1,4 @@
-; Exercise 1.22 - Use the Fermat method to check the primality of consecutive odd 
+; Exercise 1.24 - Use the Fermat method to check the primality of consecutive odd 
 ; integers in a specified range. Note the time needed to fine the three smallest 
 ; primes larger than 1,000, larger than 10,000, larger than 100,000, and larger 
 ; than 1,000,000.
