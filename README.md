@@ -1,7 +1,7 @@
 # λ SICP λ
 Documenting my progress through SICP!
 
-List of SICP scheme exercises:
+Exercise list:
 
 ## CHAPTER 1
 - [x] 1.08
@@ -32,4 +32,4 @@ List of SICP scheme exercises:
 - [x] 1.43
 - [x] 1.44
 - [x] 1.45
-- [x] 1.46 
+- [x] 1.46
