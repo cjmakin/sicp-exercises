@@ -1,5 +1,4 @@
 # λ SICP λ
-Documenting my progress through SICP.
 
 ### CHAPTER 1
 - [x] 1.08
