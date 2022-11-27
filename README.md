@@ -1,9 +1,7 @@
 # λ SICP λ
-Documenting my progress through SICP!
+Documenting my progress through SICP.
 
-Exercise list:
-
-## CHAPTER 1
+### CHAPTER 1
 - [x] 1.08
 - [x] 1.11
 - [x] 1.12
