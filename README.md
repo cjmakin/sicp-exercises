@@ -1,6 +1,6 @@
 # λ SICP λ
 
-### CHAPTER 1
+### CHAPTER 1 (From 2nd Edition)
 - [x] 1.08
 - [x] 1.11
 - [x] 1.12
