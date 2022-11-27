@@ -4,7 +4,7 @@ Documenting my progress through SICP!
 Exercise list:
 
 ## CHAPTER 1
-- [ ] 1.08
+- [x] 1.08
 - [x] 1.11
 - [x] 1.12
 - [x] 1.16  
